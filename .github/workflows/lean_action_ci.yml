@@ -1,5 +1,8 @@
 name: Lean Action CI
 
+permissions:
+  contents: write
+
 on:
   push:
   pull_request:
@@ -14,6 +17,18 @@ jobs:
 
       - name: Regenerate imports
         run: bash generate_imports.sh
+
+      - name: Commit & push changes if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add LeanSampleProblems.lean
+          if ! git diff --cached --quiet; then
+            git commit -m "ci: update LeanSampleProblems.lean"
+            git push
+          else
+            echo "No changes to commit."
+          fi
 
       - name: Build
         uses: leanprover/lean-action@v1

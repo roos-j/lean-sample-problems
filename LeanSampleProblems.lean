@@ -1,7 +1,5 @@
 /- This file is auto-generated. Any changes will be overwritten -/
 
-set_option linter.dupNamespace false
-
 import LeanSampleProblems.AIME_93841_Arctan
 import LeanSampleProblems.AIME_94009_CubicRoots
 import LeanSampleProblems.AIME_95383_ComplexQuadratic
@@ -71,3 +69,5 @@ import LeanSampleProblems.problem_206892_IntegerEqnModulo
 import LeanSampleProblems.problem_257461_NewtonVietaCubic
 import LeanSampleProblems.problem_261447_Sets
 import LeanSampleProblems.problem_266734_PolynomialComp
+
+set_option linter.dupNamespace false

@@ -1,0 +1,16 @@
+name = "lean-sample-problems"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["LeanSampleProblems"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+autoImplicit = false
+
+[[require]]
+name = "mathlib"
+rev = "9837ca9d65d9de6fad1ef4381750ca688774e608"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "LeanSampleProblems"

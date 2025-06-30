@@ -1,5 +1,7 @@
 import Mathlib
 
+namespace calculus_284337
+
 open Real intervalIntegral Set
 
 /- Needed for the verification of function properties later -/
@@ -56,3 +58,5 @@ theorem calculus_284337 {f : ℝ → ℝ} (hf : DifferentiableOn ℝ f (Ioi 0))
             exact sub_ne_zero_of_ne hx
           field_simp
         _ = 0 := volume_singleton
+
+namespace calculus_284337

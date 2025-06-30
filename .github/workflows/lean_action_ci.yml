@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Regenerate imports
-        run: ./generate_imports.sh
+        run: bash generate_imports.sh
 
       - name: Build
         uses: leanprover/lean-action@v1

@@ -1,5 +1,7 @@
 /- This file is auto-generated. Any changes will be overwritten -/
 
+set_option linter.dupNamespace false
+
 import LeanSampleProblems.AIME_93841_Arctan
 import LeanSampleProblems.AIME_94009_CubicRoots
 import LeanSampleProblems.AIME_95383_ComplexQuadratic

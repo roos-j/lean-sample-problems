@@ -43,6 +43,7 @@ import LeanSampleProblems.calculus_140111
 import LeanSampleProblems.calculus_155000
 import LeanSampleProblems.calculus_284337
 import LeanSampleProblems.calculus_287040
+import LeanSampleProblems.inequalities_149880
 import LeanSampleProblems.inequalities_24812
 import LeanSampleProblems.inequalities_24884
 import LeanSampleProblems.inequalities_262438

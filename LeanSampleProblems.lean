@@ -34,6 +34,7 @@ import LeanSampleProblems.algebra_155560
 import LeanSampleProblems.algebra_209238
 import LeanSampleProblems.algebra_216927
 import LeanSampleProblems.algebra_23922
+import LeanSampleProblems.algebra_251003
 import LeanSampleProblems.algebra_255751
 import LeanSampleProblems.algebra_281101
 import LeanSampleProblems.calculus_105332
